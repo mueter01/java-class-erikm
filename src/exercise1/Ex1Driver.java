@@ -15,21 +15,22 @@ public class Ex1Driver {
       numbers[i] = rnd.nextInt(10);
     }
     task1();
-    task2();
-    task3();
-    task4();
-    task5();
-    task6();
-    task7();
-    task8(numbers);
-    task9();
-    task10();
+//    task2();
+//    task3();
+//    task4();
+//    task5();
+//    task6();
+//    task7();
+//    task8(numbers);
+//    task9();
+//    task10();
   }
 
   /**
    * TODO: Task 1: Print "Hello World" to the default system output
    */
   public static void task1() {
+      System.out.println("Hello World");
     throw new UnsupportedOperationException("Task 1 is not implemented yet.");
   }
   /**
@@ -42,6 +43,11 @@ public class Ex1Driver {
    * TODO: Task 3: Calculate and print the sum of all multiples of 7 between 1 and 100 (inclusive)
    */
   public static void task3() {
+      for(int = 1; i <= 100; i++){
+        if(i % 7 == 0){
+            
+        }
+  }
     throw new UnsupportedOperationException("Task 3 is not implemented yet.");
   }
   /**
