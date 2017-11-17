@@ -31,7 +31,7 @@ public class Ex1Driver {
    */
   public static void task1() {
       System.out.println("Hello World");
-    throw new UnsupportedOperationException("Task 1 is not implemented yet.");
+    //throw new UnsupportedOperationException("Task 1 is not implemented yet.");
   }
   /**
    * TODO: Task 2: Print all numbers between 1 and 100 (inclusive) replacing all multiples of 3 with "foo", multiples of 5 with "bar", multiples of 3 and 5 with "huh"
@@ -43,9 +43,9 @@ public class Ex1Driver {
    * TODO: Task 3: Calculate and print the sum of all multiples of 7 between 1 and 100 (inclusive)
    */
   public static void task3() {
-      for(int = 1; i <= 100; i++){
+      for(int i = 1; i <= 100; i++){
         if(i % 7 == 0){
-            
+            System.out.println("AAAAA");
         }
   }
     throw new UnsupportedOperationException("Task 3 is not implemented yet.");
